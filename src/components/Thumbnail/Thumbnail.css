@@ -1,0 +1,11 @@
+div.thumbnail {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20%;
+  padding-top: 20%;
+  float: left;
+  border: 10px;
+  /* border-color: gray; */
+  margin: 10px;
+}
