@@ -77,7 +77,7 @@ class App extends Component {
             <Gameboard>
               {
                 this.state.gameboardImages.map(image => (
-                  <Thumbnail key={image} onClick={() => this.handleImageClick(image)} src={`../animal${image}.png`} />
+                  <Thumbnail key={image} onClick={() => this.handleImageClick(image)} src={`./animal${image}.png`} />
                 ))
               }
             </Gameboard>
